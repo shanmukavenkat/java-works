@@ -1,6 +1,5 @@
 import java.awt.*;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.*;
 
 class Frames3 {
     public static void main(String args[]){
