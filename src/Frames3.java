@@ -1,9 +1,8 @@
 import java.awt.*;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.*;
 
 class Frames3 {
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Frame k=new Frame ();
         k.setVisible(true);
@@ -14,12 +13,13 @@ class Frames3 {
 class Klistener implements WindowListener{
     @Override
     public void windowActivated(WindowEvent e) {
+        System.out.println("window Activated");
 
     }
 
     @Override
     public void windowClosed(WindowEvent e) {
-
+        System.out.println("window Closed");
     }
 
     @Override
@@ -29,21 +29,23 @@ class Klistener implements WindowListener{
 
     @Override
     public void windowDeactivated(WindowEvent e) {
+        System.out.println("window deactivated");
 
     }
 
     @Override
     public void windowDeiconified(WindowEvent e) {
+        System.out.println("window deciconified");
 
     }
 
     @Override
     public void windowIconified(WindowEvent e) {
-
+        System.out.println("windowd iconified");
     }
 
     @Override
     public void windowOpened(WindowEvent e) {
-
+        System.out.println("window opened");
     }
 }
