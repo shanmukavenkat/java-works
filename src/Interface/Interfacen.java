@@ -55,4 +55,11 @@ class InterfaceDemo implements Interfacen,Interfacen1{
         System.out.println(z);
 
     }
+    //if the method name is same in the interfaces
+//we can implement the interface to another one and we can
+//override the method in the class
+//and the same output is printed
+//why because we are using only the method signature
+//not using the definition of the method
+
 }
